@@ -12,7 +12,8 @@
 from typing import Tuple
 
 
-def index_range(page: int, page_size: int) -> tuple:
+def index_range(page: int, page_size: int) -> tuple[int, int]:
+    '''Return tuple containing pagination start index and end index.'''
 
     start_index = (page - 1) * page_size
     end_index = start_index + page_size
