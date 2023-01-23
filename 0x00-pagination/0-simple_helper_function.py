@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
         This function takes in two arguments, 
                 page and page_size,
