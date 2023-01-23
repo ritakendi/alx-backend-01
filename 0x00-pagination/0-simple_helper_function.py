@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# index_range = __import__('0-simple_helper_function').index_range
-
 
 def index_range(page, page_size):
     """
