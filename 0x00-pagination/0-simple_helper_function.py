@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-        This function takes in two arguments, 
+        This function takes in two arguments,
                 page and page_size,
-        which are used to calculate 
+        which are used to calculate
                 the start and end indexes,
-         for the range of items to return in a list. 
+         for the range of items to return in a list.
         The page argument represents the current page number
-        while the page_size argument represents the number of items to return per page.
+        the page_size:
+        argument represents the number of items to return per page.
 """
 
 from typing import Tuple
