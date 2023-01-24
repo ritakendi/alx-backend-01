@@ -24,6 +24,7 @@ class FIFOCache(BaseCaching):
     def __init__(self):
         ''' Initialize class instance. '''
         super().__init__()
+        self.keys = []
 
     def put(self, key, item):
         ''' Add key/value pair to cache data.
